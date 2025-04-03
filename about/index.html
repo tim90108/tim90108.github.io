@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw"><head>
+<html lang="zh-tw"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   <title>邱謝仁欽的部落格</title>
 
@@ -15,22 +15,22 @@
 
   <!-- plugins -->
   
-  <link rel="stylesheet" href="https://tim90108.github.io/plugins/bootstrap/bootstrap.min.css ">
+  <link rel="stylesheet" href="http://localhost:1313/plugins/bootstrap/bootstrap.min.css ">
   
-  <link rel="stylesheet" href="https://tim90108.github.io/plugins/slick/slick.css ">
+  <link rel="stylesheet" href="http://localhost:1313/plugins/slick/slick.css ">
   
-  <link rel="stylesheet" href="https://tim90108.github.io/plugins/themify-icons/themify-icons.css ">
+  <link rel="stylesheet" href="http://localhost:1313/plugins/themify-icons/themify-icons.css ">
   
-  <link rel="stylesheet" href="https://tim90108.github.io/plugins/venobox/venobox.css ">
+  <link rel="stylesheet" href="http://localhost:1313/plugins/venobox/venobox.css ">
   
 
   <!-- Main Stylesheet -->
   
-  <link rel="stylesheet" href="https://tim90108.github.io/scss/style.min.css" media="screen">
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.min.css" media="screen">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="https://tim90108.github.io/images/favicon.png " type="image/x-icon">
-  <link rel="icon" href="https://tim90108.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/images/favicon.png " type="image/x-icon">
 
   <!-- google analitycs -->
   <script>
@@ -61,8 +61,8 @@
   <div class="container">
     
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://tim90108.github.io/"><img class="img-fluid"
-          src="https://tim90108.github.io/images/timLogo.png" alt="邱謝仁欽的部落格"></a>
+      <a class="navbar-brand mobile-view" href="http://localhost:1313/"><img class="img-fluid"
+          src="http://localhost:1313/images/timLogo.png" alt="邱謝仁欽的部落格"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -86,20 +86,20 @@
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="https://tim90108.github.io/"><img class="img-fluid"
-            src="https://tim90108.github.io/images/timLogo.png" alt="邱謝仁欽的部落格"></a>
+        <a class="navbar-brand mx-auto desktop-view" href="http://localhost:1313/"><img class="img-fluid"
+            src="http://localhost:1313/images/timLogo.png" alt="邱謝仁欽的部落格"></a>
 
         <ul class="navbar-nav">
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://tim90108.github.io/about/">關於我</a>
+            <a class="nav-link" href="http://localhost:1313/about/">關於我</a>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://tim90108.github.io/blog/">AI與程式貼文</a>
+            <a class="nav-link" href="http://localhost:1313/blog/">AI與程式貼文</a>
           </li>
           
           
@@ -110,7 +110,7 @@
         <div class="search pl-lg-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="https://tim90108.github.io//search" class="h-100">
+            <form action="http://localhost:1313//search" class="h-100">
               <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="輸入完畢，點擊Enter查詢">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -130,7 +130,7 @@
     <div class="row">
       <div class="col-lg-12 mx-auto text-center">
         
-        <img src="https://tim90108.github.io/images/rencin.jpg" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
+        <img src="http://localhost:1313/images/rencin.jpg" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
         
         <h4 class="widget-title">關於我</h4>
         <div class="content">
@@ -149,10 +149,13 @@
         
             
             <div class="filter-tabs">
-              <button class="filter-btn active" data-category="All">All</button>
-              <button class="filter-btn" data-category="Basic">Basic</button>
-              <button class="filter-btn" data-category="Language">Language</button>
-              <button class="filter-btn" data-category="DevOps">DevOps</button>
+              <button class="filter-btn active" data-category="All">所有類別</button>
+              <button class="filter-btn" data-category="Frontend">前端相關</button>
+              <button class="filter-btn" data-category="Backend">後端相關</button>
+              <button class="filter-btn" data-category="Framework">框架</button>
+              <button class="filter-btn" data-category="Database">資料庫</button>
+              <button class="filter-btn" data-category="Tool">工具</button>
+              <button class="filter-btn" data-category="Other">其他</button>
             </div>
         
             
@@ -163,49 +166,207 @@
         
             <div class="skills-grid">
               
-              <div class="skill-card" data-categories="All Language Backend">
+              <div class="skill-card" data-categories="All Backend Framework">
+                
+                <div class="card-header">
+                  <img src="../images/skills/springmvc.svg" alt="Spring MVC Logo" class="skill-logo">
+                  <h3>Spring MVC</h3>
+                </div>
+                
+                <div class="card-summary">精通 Spring MVC 架構設計與 RESTful API 實作，具備良好模組化與解耦能力</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Tool Basic">
+                
+                <div class="card-header">
+                  <img src="../images/skills/git.svg" alt="Git Logo" class="skill-logo">
+                  <h3>Git</h3>
+                </div>
+                
+                <div class="card-summary">熟練 Git 版本控制與分支管理，具備多人協作與 Git Flow 實務經驗</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Backend Framework">
+                
+                <div class="card-header">
+                  <img src="../images/skills/springboot.svg" alt="Spring Boot Logo" class="skill-logo">
+                  <h3>Spring Boot</h3>
+                </div>
+                
+                <div class="card-summary">擅長使用 Spring Boot 建構獨立運行後端應用，整合 JPA、Security、Batch 等模組</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Backend Database">
+                
+                <div class="card-header">
+                  <img src="../images/skills/mybatis.png" alt="MyBatis Logo" class="skill-logo">
+                  <h3>MyBatis</h3>
+                </div>
+                
+                <div class="card-summary">精通 MyBatis 資料存取框架，熟悉 XML 與註解式 SQL 映射設計</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Frontend Framework">
+                
+                <div class="card-header">
+                  <img src="../images/skills/nuxt3.svg" alt="Nuxt 3 Logo" class="skill-logo">
+                  <h3>Nuxt 3</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 Nuxt 3 靜態與動態渲染架構，能進行 SSR/SPA 切換與 API 整合</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Tool Reporting">
+                
+                <div class="card-header">
+                  <img src="../images/skills/ireport.png" alt="iReport Logo" class="skill-logo">
+                  <h3>iReport</h3>
+                </div>
+                
+                <div class="card-summary">能設計並整合 iReport 報表至後端系統，自定義欄位、參數與格式輸出</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Data Tool">
+                
+                <div class="card-header">
+                  <img src="../images/skills/etl.png" alt="ETL Logo" class="skill-logo">
+                  <h3>ETL</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 ETL 流程設計，具備大數據批次處理與資料清洗經驗</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All DevOps Tool">
+                
+                <div class="card-header">
+                  <img src="../images/skills/jenkins.png" alt="Jenkins Logo" class="skill-logo">
+                  <h3>Jenkins</h3>
+                </div>
+                
+                <div class="card-summary">掌握 Jenkins 自動化流程設計與 Pipeline 實作，支援 CI/CD 建構與部署流程</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Tool Version Control">
+                
+                <div class="card-header">
+                  <img src="../images/skills/bitbucket.png" alt="Git Bitbucket Logo" class="skill-logo">
+                  <h3>Git Bitbucket</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 Bitbucket 操作與整合 Pipeline、Pull Request 工作流程</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Tool Version Control">
+                
+                <div class="card-header">
+                  <img src="../images/skills/tortoisesvn.png" alt="TortoiseSVN Logo" class="skill-logo">
+                  <h3>TortoiseSVN</h3>
+                </div>
+                
+                <div class="card-summary">熟練 SVN 版本控管，具備多專案版本合併與回滾操作經驗</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Backend Server">
+                
+                <div class="card-header">
+                  <img src="../images/skills/tomcat.png" alt="Tomcat Logo" class="skill-logo">
+                  <h3>Tomcat</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 Tomcat 設定與部署流程，包含 SSL 設定、Context 配置與 Log 管理</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Frontend Language">
+                
+                <div class="card-header">
+                  <img src="../images/skills/javascript.svg" alt="JavaScript Logo" class="skill-logo">
+                  <h3>JavaScript</h3>
+                </div>
+                
+                <div class="card-summary">精通 JavaScript 語法與事件處理，能靈活操作 DOM 與非同步流程</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Frontend Library">
+                
+                <div class="card-header">
+                  <img src="../images/skills/jquery.png" alt="jQuery Logo" class="skill-logo">
+                  <h3>jQuery</h3>
+                </div>
+                
+                <div class="card-summary">熟練 jQuery 操作、DOM 操控與常見套件整合，快速建置互動功能</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Frontend Framework">
+                
+                <div class="card-header">
+                  <img src="../images/skills/bootstrap.png" alt="Bootstrap Logo" class="skill-logo">
+                  <h3>Bootstrap</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 Bootstrap 響應式設計系統，具備版面設計與元件客製化能力</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Database">
+                
+                <div class="card-header">
+                  <img src="../images/skills/oracle.png" alt="Oracle Logo" class="skill-logo">
+                  <h3>Oracle</h3>
+                </div>
+                
+                <div class="card-summary">精通 Oracle SQL 撰寫與資料庫操作，具備 PL/SQL 編程與效能調校經驗</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Database">
+                
+                <div class="card-header">
+                  <img src="../images/skills/mssql.svg" alt="MSSQL Logo" class="skill-logo">
+                  <h3>MSSQL</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 MSSQL Server 資料查詢與管理，具備 Stored Procedure 撰寫經驗</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Frontend Framework">
+                
+                <div class="card-header">
+                  <img src="../images/skills/vue3.png" alt="Vue 3 Logo" class="skill-logo">
+                  <h3>Vue 3</h3>
+                </div>
+                
+                <div class="card-summary">熟悉 Vue 3 Composition API 與元件設計，能快速構建前端 SPA</div>
+              </div>
+              
+              <div class="skill-card" data-categories="All Backend Language">
                 
                 <div class="card-header">
                   <img src="../images/skills/java.svg" alt="Java Logo" class="skill-logo">
                   <h3>Java</h3>
                 </div>
                 
-                <div class="card-summary">熟悉 Spring 開發</div>
+                <div class="card-summary">精通 Java 程式語言，具備 OOP 與後端應用開發的實戰經驗</div>
               </div>
               
-              <div class="skill-card" data-categories="All Language">
+              <div class="skill-card" data-categories="All Frontend Graphics">
                 
                 <div class="card-header">
-                  <img src="../images/skills/python.svg" alt="Python Logo" class="skill-logo">
-                  <h3>Python</h3>
+                  <img src="../images/skills/canvas.png" alt="Canvas Logo" class="skill-logo">
+                  <h3>Canvas</h3>
                 </div>
                 
-                <div class="card-summary">資料分析、爬蟲</div>
+                <div class="card-summary">能使用 HTML5 Canvas 操作繪圖、動畫與互動效果開發</div>
               </div>
               
-              <div class="skill-card" data-categories="All Basic Tool">
+              <div class="skill-card" data-categories="All Other">
                 
                 <div class="card-header">
-                  <img src="../images/skills/python.svg" alt="Git Logo" class="skill-logo">
-                  <h3>Git</h3>
+                  <img src="../images/skills/unity.png" alt="Unity Logo" class="skill-logo">
+                  <h3>Unity</h3>
                 </div>
                 
-                <div class="card-summary">熟悉 Git flow, rebase</div>
-              </div>
-              
-              <div class="skill-card" data-categories="All DevOps Basic">
-                
-                <div class="card-header">
-                  <img src="../images/skills/python.svg" alt="Docker Logo" class="skill-logo">
-                  <h3>Docker</h3>
-                </div>
-                
-                <div class="card-summary">容器化部署</div>
+                <div class="card-summary">使用 Unity 開發簡單 2D/3D 互動應用，具備 C# 腳本控制經驗</div>
               </div>
               
         
-              
-              <div class="skill-card placeholder"></div>
               
               <div class="skill-card placeholder"></div>
               
@@ -229,10 +390,11 @@
                 中國人壽-國外投資系統 
               </div>
               <div class="timeline__event__description">
-                <p>使用ETL抽檔資料庫，撰寫StoreProcedure使資料分配、備份至指定Table，最後由SQL Agent排程<br>將StoreProcedure依時間產出資料。</p>
-                <p>修正Excel報表上傳、下載Util，改善jasper iReport，花費許多時間，透過程式讀取template個表格<br>樣式、公式，來節省時間。</p>
-                <p>使用Fortify掃檔系統，檢查開發程式是否有資安漏洞問題，例如：SQL注入問題、密碼裸露、網頁<br>代碼錯誤等處理。</p>
-                <p>將科外證所稅資料納入本科內，由於原本為Oracle資料，負責把原本SQL轉譯為MS SQL語法，<br>並將原本預存程序寫法優化。</p>
+                <p>使用ETL抽檔資料庫，撰寫StoreProcedure使資料分配、備份至指定Table，<br>最後由SQL Agent排程將StoreProcedure依時間產出資料。</p>
+                <p>修正Excel報表上傳、下載Util，改善jasper iReport，花費許多時間，<br>透過程式讀取template個表格樣式、公式，來節省時間。</p>
+                <p>使用Fortify掃檔系統，檢查開發程式是否有資安漏洞問題，<br>例如：SQL注入問題、密碼裸露、網頁代碼錯誤等處理。</p>
+                <p>將科外證所稅資料納入本科內，由於原本為Oracle資料，<br>負責把原本SQL轉譯為MS SQL語法，並將原本預存程序寫法優化。</p>
+                <p>表格使用EasyUI Datagrid，統一該系統樣式。</p>
               </div>
             </div>
           </div>
@@ -254,7 +416,7 @@
               <div class="timeline__event__description">
                 <p>設計各部門上傳人員、覆核人員維護介面。</p>
                 <p>透過Html設計User提供Outlook信件要求格式，Java匯入smtp功能發送信件。</p>
-                <p>使用SpringBatch設定特定時間來發信給資料庫內的窗口，並在一定時間內檢視資料庫<br>給尚未上傳資料人員。 </p>
+                <p>使用SpringBatch設定特定時間來發信給資料庫內的窗口，<br>並在一定時間內檢視資料庫給尚未上傳資料人員。 </p>
               </div>
             </div>
           </div>
@@ -274,9 +436,10 @@
                 中國人壽-外匯管理系統
               </div>
               <div class="timeline__event__description">
-                <p>設計各交易單輸入介面，契合交易員常用的交易介面，客製化各選項串聯、金額試算，減少輸入<br>、比對時間。</p>
-                <p>Jasper iReport刻出交易單、交易日報表、部位查詢畫面，產出csv、pdf、xlsx等檔案類型，<br>或是一次下載全類型功能。</p>
-                <p>交易單為金檢重點查核項目，資料的異動軌跡必須保留清楚，設計Audit Log觸發程序，當資料表<br>欄位異動，回傳Table修改前、後值，確保資料軌跡。</p>
+                <p>設計各交易單輸入介面，契合交易員常用的交易介面，<br>客製化各選項串聯、金額試算，減少輸入、比對時間。</p>
+                <p>Jasper iReport刻出交易單、交易日報表、部位查詢畫面，<br>產出csv、pdf、xlsx等檔案類型，或是一次下載全類型功能。</p>
+                <p>交易單為金檢重點查核項目，資料的異動軌跡必須保留清楚，設計Audit Log觸發程序，<br>當資料表欄位異動，回傳Table修改前、後值，確保資料軌跡。</p>
+                <p>介面使用了Bootstrap美化，且表格使用Bootstrap表格，統一該系統樣式。</p>
               </div>
         
             </div>
@@ -297,9 +460,9 @@
                 華南銀行-FBBS系統
               </div>
               <div class="timeline__event__description">
-                <p>這個專案主要涵蓋了票券、債券、權益債券、期貨、等交易，風控、額度等功能皆在此系統，<br>所有交易相關的基本資料CRUD維護。</p>
+                <p>這個專案主要涵蓋了票券、債券、權益債券、期貨、等交易，風控、額度<br>等功能皆在此系統，所有交易相關的基本資料CRUD維護。</p>
                 <p>使用Java為主的Vaddin套件，使用類似於Android組件語法的方式，維持畫面統一性。</p>
-                <p>修改電文系統，針對其敏感字樣來對其實施文字遮罩；因應各金融商品有未審核、未覆核情況下，寄信通知各主管部門功能。</p>
+                <p>修改電文系統，針對其敏感字樣來對其實施文字遮罩；因應各金融商品有未審核、未覆核情況下，<br>寄信通知各主管部門功能。</p>
               </div>
             </div>
           </div>
@@ -341,7 +504,7 @@
               </div>
               <div class="timeline__event__description">
                 <p>該系統主要是以資金流為主體，像是外匯商品、資金拆借、本行與分行對客戶交易、利息收入，<br>所有交易相關的基本資料CRUD維護。 </p>
-                <p>設計Excel主體的報表，設計由多個不同樣式sheet的組成Excel檔案，因應各不同幣別、日期、<br>匯率，計算出不同報表總和差異。</p>
+                <p>設計Excel主體的報表，設計由多個不同樣式sheet的組成Excel檔案，<br>因應各不同幣別、日期、匯率，計算出不同報表總和差異。</p>
               </div>
             </div>
           </div>
@@ -364,7 +527,7 @@
                 <p>SpringBatch使用TaskExecutor執行序，(Job、Step)Execution參數傳遞執行各通路的報表。</p>
                 <p>LogAppender將各Job期間的所有Log存入資料庫欄位，好追蹤Job執行軌跡。</p>
                 <p>MybatisGernerator創建JavaBean自動讀取該Table所有注釋，期間對資料驗證<br>使用Java Validation，依照Java Bean的annoation自動驗證，將該欄位所有資訊寫入勘誤檔。</p>
-                <p>SpringBatch5的flatwritter將檔案產出，產檔格式可以簡單地帶入參數進行產檔，檔案表頭可以使用Java Bean的映射，自動照順序產出表頭，連接Sftp伺服器，將檔案上傳至各通路位置。</p>
+                <p>SpringBatch5的flatwritter將檔案產出，產檔格式可以簡單地帶入參數進行產檔，<br>檔案表頭可以使用Java Bean的映射，自動照順序產出表頭，連接Sftp伺服器，將檔案上傳至各通路位置。</p>
                 <p></p>
               </div>
             </div>
@@ -385,8 +548,8 @@
               </div>
               <div class="timeline__event__description">
                 <P>該系統主要是以各保單通路為主體，維護、開發各保單、險種的保費、紅利、授權銀行等欄位<br>
-                  計算、串接，檢測各通路保單，若發生欄位錯誤，進入勘誤檔，同時保留正確檔案<br>和錯誤檔案供User參考。 </P>
-                <p>透過SQL去組成各通路保單語法，從Table讀取資訊，產生相應的檔名、檔案解碼方式、日、月檔，比較少對程式執行操作。</p>
+                  計算、串接，檢測各通路保單，若發生欄位錯誤，進入勘誤檔，<br>同時保留正確檔案和錯誤檔案供User參考。 </P>
+                <p>透過SQL去組成各通路保單語法，從Table讀取資訊，產生相應的檔名、<br>檔案解碼方式、日、月檔，比較少對程式執行操作。</p>
               </div>
             </div>
           </div>
@@ -424,7 +587,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center mb-5">
-        <a href="https://tim90108.github.io/"><img src="https://tim90108.github.io/images/timLogo.png" alt="邱謝仁欽的部落格"></a>
+        <a href="http://localhost:1313/"><img src="http://localhost:1313/images/timLogo.png" alt="邱謝仁欽的部落格"></a>
       </div>
                
       <div class="col-lg-3 col-sm-6 mb-5">
@@ -461,25 +624,10 @@
         <h6 class="mb-4">AI與程式貼文</h6>
         <ul class="list-unstyled">
           <li class="mb-3"><a class="text-dark"
-              href="../categories/android-and-gaming/">Android and gaming</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
               href="../categories/go-language/">Go language</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="../categories/html/">HTML</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="../categories/html-css/">HTML &amp; css</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="../categories/programming-language/">Programming language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="../categories/python/">Python</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="../categories/web-design/">Web design</a>
+              href="../categories/%e5%89%8d%e7%ab%af%e8%a8%ad%e8%a8%88/">前端設計</a>
           </li>
         </ul>
       </div>
@@ -487,9 +635,9 @@
         <h6 class="mb-4">連結</h6>
         <ul class="list-unstyled">
           
-          <li class="mb-3"><a class="text-dark" href="https://tim90108.github.io/about/">關於我</a></li>
+          <li class="mb-3"><a class="text-dark" href="http://localhost:1313/about/">關於我</a></li>
           
-          <li class="mb-3"><a class="text-dark" href="https://tim90108.github.io/blog/">AI與程式貼文</a></li>
+          <li class="mb-3"><a class="text-dark" href="http://localhost:1313/blog/">AI與程式貼文</a></li>
           
         </ul>
       </div>
@@ -501,28 +649,28 @@
 </footer>
 
 <script>
-  var indexURL = "https://tim90108.github.io/index.json"
+  var indexURL = "http://localhost:1313/index.json"
 </script>
 
 <!-- JS Plugins -->
 
-<script src="https://tim90108.github.io/plugins/jQuery/jquery.min.js"></script>
+<script src="http://localhost:1313/plugins/jQuery/jquery.min.js"></script>
 
-<script src="https://tim90108.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="http://localhost:1313/plugins/bootstrap/bootstrap.min.js"></script>
 
-<script src="https://tim90108.github.io/plugins/slick/slick.min.js"></script>
+<script src="http://localhost:1313/plugins/slick/slick.min.js"></script>
 
-<script src="https://tim90108.github.io/plugins/venobox/venobox.min.js"></script>
+<script src="http://localhost:1313/plugins/venobox/venobox.min.js"></script>
 
-<script src="https://tim90108.github.io/plugins/search/fuse.min.js"></script>
+<script src="http://localhost:1313/plugins/search/fuse.min.js"></script>
 
-<script src="https://tim90108.github.io/plugins/search/mark.js"></script>
+<script src="http://localhost:1313/plugins/search/mark.js"></script>
 
-<script src="https://tim90108.github.io/plugins/search/search.js"></script>
+<script src="http://localhost:1313/plugins/search/search.js"></script>
 
 <!-- Main Script -->
 
-<script src="https://tim90108.github.io/js/script.min.js"></script>
+<script src="http://localhost:1313/js/script.min.js"></script>
 
 
 
