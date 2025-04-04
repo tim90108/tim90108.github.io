@@ -145,8 +145,9 @@
         <img src="http://localhost:1313/images/featured-post/gomoku-canvas.jpg" class="img-fluid w-100 mb-4" alt="使用 HTML5 Canvas 製作五子棋遊戲">
         
         <div class="content mb-5">
-          <h2 id="-五子棋">🎨 五子棋</h2>
-<p>五子棋是一種傳統的策略棋類遊戲，兩位玩家輪流在棋盤上放置黑白棋子，先連成五子者獲勝。本文將介紹如何使用 HTML5 的 <code>&lt;canvas&gt;</code> 元素和 JavaScript 來實作一個基本的五子棋遊戲，並解析其中的重要程式碼片段。</p>
+          <h2 id="-五子棋">🎯 五子棋</h2>
+<p>如何使用<code>&lt;canvas&gt;</code> 製作五子棋傳統的策略棋類遊戲，兩位玩家輪流在棋盤上放置黑白棋子，先連成五子者獲勝。
+本文將介紹如何使用 HTML5 的 <code>&lt;canvas&gt;</code> 元素和 JavaScript 來實作一個基本的五子棋遊戲，並解析其中的重要程式碼片段。</p>
 <hr>
 <h2 id="-開發步驟">🛠️ 開發步驟</h2>
 <h3 id="1-設置-html-結構">1. 設置 HTML 結構</h3>
@@ -174,7 +175,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">drawBoard</span><span class="p">();</span>
-</span></span></code></pre></div><h3 id="3-處理玩家點擊並放置棋子">3. 處理玩家點擊並放置棋子</h3>
+</span></span></code></pre></div><hr>
+<h3 id="3-處理玩家點擊並放置棋子">3. 處理玩家點擊並放置棋子</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">board</span> <span class="o">=</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">boardSize</span><span class="p">).</span><span class="nx">fill</span><span class="p">(</span><span class="kc">null</span><span class="p">).</span><span class="nx">map</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="nb">Array</span><span class="p">(</span><span class="nx">boardSize</span><span class="p">).</span><span class="nx">fill</span><span class="p">(</span><span class="kc">null</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">currentPlayer</span> <span class="o">=</span> <span class="s1">&#39;black&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -200,7 +202,8 @@
 </span></span><span class="line"><span class="cl">  <span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="nx">color</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">ctx</span><span class="p">.</span><span class="nx">fill</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="4-判斷勝負">4. 判斷勝負</h3>
+</span></span></code></pre></div><hr>
+<h3 id="4-判斷勝負">4. 判斷勝負</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">checkWin</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">j</span><span class="p">,</span> <span class="nx">color</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">checkDirection</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">j</span><span class="p">,</span> <span class="nx">color</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">||</span>
 </span></span><span class="line"><span class="cl">         <span class="nx">checkDirection</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">j</span><span class="p">,</span> <span class="nx">color</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="o">||</span>
@@ -230,15 +233,17 @@
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">count</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h2 id="-示範動畫">🌀 示範動畫</h2>
-<figure><img src="../../images/gomoku-demo.gif"><figcaption>
+</span></span></code></pre></div><hr>
+<h2 id="-示範動畫">🌀 示範動畫</h2>
+<h2 id="hahahugoshortcode2s0hbhb"><figure><img src="../../images/demo/gomoku-demo.gif"><figcaption>
       <h4>互動式五子棋 Canvas 示範</h4>
     </figcaption>
 </figure>
-
+</h2>
 <h2 id="-小結">✅ 小結</h2>
 <p>本文介紹了如何用 HTML5 Canvas 元素搭配 JavaScript 建立互動式五子棋遊戲，並說明了棋盤繪製、棋子放置、點擊事件處理與勝負判斷等核心功能的程式碼邏輯。</p>
 <p>你也可以延伸本範例，加上重新開始、悔棋、AI 對戰等進階功能，打造更完整的遊戲體驗。</p>
+<hr>
 
         </div>
 
@@ -291,9 +296,6 @@
       <div class="col-lg-3 col-sm-6 mb-5">
         <h6 class="mb-4">AI與程式貼文</h6>
         <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark"
-              href="../../categories/go-language/">Go language</a>
-          </li>
           <li class="mb-3"><a class="text-dark"
               href="../../categories/%e5%89%8d%e7%ab%af%e8%a8%ad%e8%a8%88/">前端設計</a>
           </li>
