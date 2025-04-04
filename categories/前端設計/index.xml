@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>前端設計 on 邱謝仁欽的部落格</title>
-    <link>http://localhost:1313/categories/%E5%89%8D%E7%AB%AF%E8%A8%AD%E8%A8%88/</link>
+    <link>https://tim90108.github.io/categories/%E5%89%8D%E7%AB%AF%E8%A8%AD%E8%A8%88/</link>
     <description>Recent content in 前端設計 on 邱謝仁欽的部落格</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 03 Apr 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E5%89%8D%E7%AB%AF%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tim90108.github.io/categories/%E5%89%8D%E7%AB%AF%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canvas 基礎教學</title>
-      <link>http://localhost:1313/blog/post-1/</link>
+      <link>https://tim90108.github.io/blog/post-1/</link>
       <pubDate>Thu, 03 Apr 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/post-1/</guid>
+      <guid>https://tim90108.github.io/blog/post-1/</guid>
       <description>&lt;h2 id=&#34;-canvas-是什麼&#34;&gt;🎨 Canvas 是什麼？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 是 HTML5 提供的一個元素，讓你可以在網頁上&lt;strong&gt;動態繪製圖形&lt;/strong&gt;、圖片處理、動畫，甚至是遊戲開發。你可以使用 JavaScript 操控它的繪圖上下文（context），來畫出各種 2D 或 3D 圖形。&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用 HTML5 Canvas 製作五子棋遊戲</title>
-      <link>http://localhost:1313/blog/post-2/</link>
+      <link>https://tim90108.github.io/blog/post-2/</link>
       <pubDate>Thu, 03 Apr 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/post-2/</guid>
+      <guid>https://tim90108.github.io/blog/post-2/</guid>
       <description>&lt;h2 id=&#34;-五子棋&#34;&gt;🎯 五子棋&lt;/h2&gt;&#xA;&lt;p&gt;如何使用&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 製作五子棋傳統的策略棋類遊戲，兩位玩家輪流在棋盤上放置黑白棋子，先連成五子者獲勝。&#xA;本文將介紹如何使用 HTML5 的 &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 元素和 JavaScript 來實作一個基本的五子棋遊戲，並解析其中的重要程式碼片段。&lt;/p&gt;</description>
     </item>
     <item>
       <title>How To Use Checklists To Improve Your UX</title>
-      <link>http://localhost:1313/blog/post-13/</link>
+      <link>https://tim90108.github.io/blog/post-13/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>http://localhost:1313/blog/post-13/</guid>
+      <guid>https://tim90108.github.io/blog/post-13/</guid>
       <description>&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h5 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h5&gt;&#xA;&lt;p&gt;Emphasis, aka italics, with &lt;em&gt;asterisks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
