@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on 邱謝仁欽的部落格</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>https://tim90108.github.io/tags/javascript/</link>
     <description>Recent content in JavaScript on 邱謝仁欽的部落格</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 03 Apr 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tim90108.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canvas 基礎教學</title>
-      <link>http://localhost:1313/blog/post-1/</link>
+      <link>https://tim90108.github.io/blog/post-1/</link>
       <pubDate>Thu, 03 Apr 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/post-1/</guid>
+      <guid>https://tim90108.github.io/blog/post-1/</guid>
       <description>&lt;h2 id=&#34;-canvas-是什麼&#34;&gt;🎨 Canvas 是什麼？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 是 HTML5 提供的一個元素，讓你可以在網頁上&lt;strong&gt;動態繪製圖形&lt;/strong&gt;、圖片處理、動畫，甚至是遊戲開發。你可以使用 JavaScript 操控它的繪圖上下文（context），來畫出各種 2D 或 3D 圖形。&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用 HTML5 Canvas 製作五子棋遊戲</title>
-      <link>http://localhost:1313/blog/post-2/</link>
+      <link>https://tim90108.github.io/blog/post-2/</link>
       <pubDate>Thu, 03 Apr 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/post-2/</guid>
+      <guid>https://tim90108.github.io/blog/post-2/</guid>
       <description>&lt;h2 id=&#34;-五子棋&#34;&gt;🎯 五子棋&lt;/h2&gt;&#xA;&lt;p&gt;如何使用&lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 製作五子棋傳統的策略棋類遊戲，兩位玩家輪流在棋盤上放置黑白棋子，先連成五子者獲勝。&#xA;本文將介紹如何使用 HTML5 的 &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 元素和 JavaScript 來實作一個基本的五子棋遊戲，並解析其中的重要程式碼片段。&lt;/p&gt;</description>
     </item>
   </channel>
