@@ -23,9 +23,6 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-04-03T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-1-copy/</loc>
-    <lastmod>2025-04-03T10:00:00+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/post-2/</loc>
     <lastmod>2025-04-03T10:00:00+08:00</lastmod>
   </url><url>
@@ -48,9 +45,6 @@
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/game/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/go-language/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/post-13/</loc>
